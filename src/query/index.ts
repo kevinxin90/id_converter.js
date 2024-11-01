@@ -1,6 +1,6 @@
 import { Scheduler } from './scheduler';
 import { DBIdsObject, IndividualResolverOutput } from '../common/types';
-import Debug from 'debug';
+import { Debug } from "@biothings-explorer/utils";
 const debug = Debug('biomedical-id-resolver:Query');
 
 const query = async (resolvable: DBIdsObject): Promise<IndividualResolverOutput[]> => {

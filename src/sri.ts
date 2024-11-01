@@ -2,7 +2,7 @@ import axios from 'axios';
 import axiosRetry from 'axios-retry';
 import { CURIE } from './config';
 import { SRIResolverOutput, ResolverInput, SRIBioEntity, SRIResponseEntity, SRIResponse } from './common/types';
-import Debug from 'debug';
+import { Debug } from "@biothings-explorer/utils";
 import _ from 'lodash';
 import SRINodeNormFailure from './exceptions/sri_resolver_failiure';
 const debug = Debug('bte:biomedical-id-resolver:SRI');

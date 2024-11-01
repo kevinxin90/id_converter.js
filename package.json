@@ -57,7 +57,8 @@
     "biolink-model": "workspace:../biolink-model",
     "debug": "^4.3.4",
     "husky": "^8.0.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "@biothings-explorer/utils": "workspace:*"
   },
   "husky": {
     "hooks": {
