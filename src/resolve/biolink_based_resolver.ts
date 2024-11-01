@@ -3,7 +3,7 @@ import BioLinkBasedValidator from '../validate/biolink_based_validator';
 import query from '../query/index';
 import { ResolverOutput, IndividualResolverOutput, DBIdsObject } from '../common/types';
 import BioLinkHandlerInstance from '../biolink';
-import Debug from 'debug';
+import { Debug } from "@biothings-explorer/utils";
 const debug = Debug('biomedical-id-resolver:resolver');
 
 export default class BioLinkBasedResolver extends BaseResolver {

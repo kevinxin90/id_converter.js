@@ -2,7 +2,7 @@ import BaseResolver from './base_resolver';
 import { ResolverOutput, IndividualResolverOutput } from '../common/types';
 import query from '../query/index';
 import DefaultValidator from '../validate/default_validator';
-import Debug from 'debug';
+import { Debug } from "@biothings-explorer/utils";
 const debug = Debug('biomedical-id-resolver:resolver');
 
 export default class DefaultResolver extends BaseResolver {

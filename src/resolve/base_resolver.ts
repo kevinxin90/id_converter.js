@@ -1,6 +1,6 @@
 import { IResolver, ResolverOutput, DBIdsObject } from '../common/types';
 import { IrresolvableBioEntity } from '../bioentity/irresolvable_bioentity';
-import Debug from 'debug';
+import { Debug } from "@biothings-explorer/utils";
 const debug = Debug('biomedical-id-resolver:resolver');
 
 export default abstract class BaseResolver implements IResolver {

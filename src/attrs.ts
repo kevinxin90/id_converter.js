@@ -19,7 +19,7 @@ import {
 } from './utils';
 import { BioLink } from 'biolink-model';
 
-import Debug from 'debug';
+import { Debug } from "@biothings-explorer/utils";
 const debug = Debug('biomedical-id-resolver:AddAttributes');
 
 function groupCuriesByPrefix(curies: string[]): ObjectWithStringKeyAndArrayValues {
